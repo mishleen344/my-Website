@@ -242,15 +242,20 @@ header h1{
     font-size: 24px;
     color: #313131;
 }
-.contact .info .card i,
-.contact .info .card a
+.contact .info .card .info-content i,
+.contact .info .card .info-content a
 {
     text-decoration: none;
     color: #313131;
     font-size: 24px;
 }
+.card a{
+    font-size: 22px;
+    color: #222;
+}
 .links a{
     margin-left: 10px;
+    font-size: 28px;
 }
 .foot{
     display: flex;
@@ -403,7 +408,7 @@ header h1{
 
     .contact .info .card h4,
     .contact .info .card i {
-        font-size: 20px;
+        font-size: 28px;
     }
 
     .foot p {
